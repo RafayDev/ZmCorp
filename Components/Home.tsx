@@ -26,13 +26,8 @@ const Home = () => {
         </div>
         
         <div>
-            <img className='my-16 px-10 ' src="/slide" alt="" />
+            <img className='my-16 px-10 ' src="/slide.jpg" alt="" />
         </div>
-        
-
-
-
-
         </div>
     </div>
   )
