@@ -3,7 +3,7 @@ import React from 'react'
 const Footer = () => {
   const email = " info@zmcorp.com.pk";
   return (
-    <div className="min-h-full mt-10 flex flex-col">
+    <div className="min-h-full mt-auto flex flex-col">
       <div className="flex-grow bg-black p-20">
         <div className="bg-black text-gray-400 text-center">
           <strong>Telephone: </strong>+92 51 844 0961 <br />
@@ -21,7 +21,7 @@ const Footer = () => {
           {/* Add your content here */}
         </div>
       </div>
-      <footer className="bg-black text-white py-4 text-center">
+      <footer className="bg-black text-white py-4  text-center">
         <div className="container mx-auto">
           <p className="text-sm">&copy; 2016 ZM CORP. All Rights Reserved.</p>
         </div>

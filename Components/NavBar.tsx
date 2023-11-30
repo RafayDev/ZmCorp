@@ -25,7 +25,7 @@ const NavBar = () => {
             id="navbar-default"
           >
             <ul className=" font-medium  pl- md:p-0 mt-4 w-full flex flex-col md:flex-row  md:space-x-8 md:mt-0 md:border-0 ">
-              <li id="Home">
+              <li id="Home" className="block py-2 px-3 hover:scale-110 duration-300 text-gray-800 cursor-pointer md:hover:text-li-color md:p-0 md:dark:text-li-color">
                 {pathname === '/' ? (
                   <ScrollLink
                     activeClass="active"
@@ -46,7 +46,7 @@ const NavBar = () => {
                   </NextLink>
                 )}
               </li>
-              <li>
+              <li className="block py-2 px-3 hover:scale-110 duration-300 text-gray-800 cursor-pointer md:hover:text-li-color md:p-0 md:dark:text-li-color">
                 {pathname !== "/" ? (
                   <NextLink
                     href="/area-of-expertise"
@@ -67,7 +67,7 @@ const NavBar = () => {
                   </ScrollLink>
                 )}
               </li>
-              <li>
+              <li className="block py-2 px-3 hover:scale-110 duration-300 text-gray-800 cursor-pointer md:hover:text-li-color md:p-0 md:dark:text-li-color" >
                 {pathname!== "/"? ( 
                 <NextLink
                   href="services-we-offer"
@@ -92,7 +92,7 @@ const NavBar = () => {
                 )}
                
               </li>
-              <li>
+              <li className="block py-2 px-3 hover:scale-110 duration-300 text-gray-800 cursor-pointer md:hover:text-li-color md:p-0 md:dark:text-li-color">
                 {pathname!== "/"? (
                 <NextLink
                   href="work-with-us"
@@ -114,7 +114,7 @@ const NavBar = () => {
                   </ScrollLink>
                 )}
               </li>
-              <li>
+              <li className="block py-2 px-3 hover:scale-110 duration-300 text-gray-800 cursor-pointer md:hover:text-li-color md:p-0 md:dark:text-li-color">
                 {
                   pathname!== "/"? (
                     <NextLink
@@ -149,7 +149,7 @@ const NavBar = () => {
           </div>
           {nav && (
             <ul className="flex  text-gray-600 bg-nav-color   flex-col justify-center items-center space-y-4  w-full h-screen">
-              <li>
+              <li className="block hover:scale-110 duration-300 text-li-color">
                 <div
                   className="px-2 cursor-pointer text-center text-2xl font-semibold "
                   aria-current="page"
@@ -179,7 +179,7 @@ const NavBar = () => {
                 </div>
               </li>
 
-              <li>
+              <li className="block hover:scale-110 duration-300 text-li-color">
 
                 <div
                   className="px-2 cursor-pointer text-center text-2xl font-semibold  "
@@ -208,7 +208,7 @@ const NavBar = () => {
                   )}
                 </div>
               </li>
-              <li>
+              <li className="block hover:scale-110 duration-300 text-li-color">
                 <div
                   className="px-2 cursor-pointer text-center  text-2xl font-semibold "
                   aria-current="page"
@@ -238,7 +238,7 @@ const NavBar = () => {
                   )}
                 </div>
               </li>
-              <li>
+              <li className="block hover:scale-110 duration-300 text-li-color">
                 <div
                   className="px-2 cursor-pointer text-center text-2xl font-semibold "
                   aria-current="page"
@@ -267,7 +267,7 @@ const NavBar = () => {
                   )}
                 </div>
               </li>
-              <li>
+              <li className="block hover:scale-110 duration-300 text-li-color">
                 <div
                   className="px-2 cursor-pointer text-center  text-2xl font-semibold  "
                   aria-current="page"
