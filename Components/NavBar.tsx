@@ -33,7 +33,7 @@ const NavBar = () => {
                     spy={true}
                     smooth={true}
                     offset={-70}
-                    className="text-gray-800"
+                    className="text-gray-800  hover:text-li-color  cursor-pointer "
                   >
                     Home
                   </ScrollLink>
@@ -51,7 +51,7 @@ const NavBar = () => {
                 {pathname !== "/" ? (
                   <NextLink
                     href="/area-of-expertise"
-                    className="block py-2 px-3 hover:scale-110 duration-300 text-gray-600  md:hover:text-li-color md:p-0 md:dark:text-li-color"
+                    className="block py-2 px-3 hover:scale-110 duration-300 text-gray-600 md:border-0 md:hover:text-li-color md:p-0 md:dark:text-li-color"
                     aria-current="page"
                   >
                     <span>Expertise</span>
@@ -63,7 +63,7 @@ const NavBar = () => {
                     spy={true}
                     smooth={true}
                     offset={-70}
-                    className="text-gray-800"
+                    className="text-gray-800  hover:text-li-color  cursor-pointer "
                   >
                     Expertise
                   </ScrollLink>
