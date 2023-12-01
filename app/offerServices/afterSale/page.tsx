@@ -5,7 +5,7 @@ const Page = () => {
     <div className='bg-work'>
       
     <h1 className="text-4xl font-bold my-24 text-center bg-black text-white p-14 mb-8">After-Sales Support</h1>
-      <div className="container mx-auto py-10">
+      <div className="container text-black mx-auto py-10">
 
     <p className="text-lg mb-6">
       At ZM CORP, our commitment extends beyond project completion. We prioritize providing exceptional after-sales support to ensure the longevity and optimal performance of the delivered defense solutions. Our dedicated support team is ready to assist you at every stage.

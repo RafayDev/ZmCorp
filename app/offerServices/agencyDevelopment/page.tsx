@@ -6,7 +6,7 @@ const Page = () => {
 
     <div className='bg-work'>
        <h2 className="text-4xl font-bold my-24 text-center bg-black text-white p-14 mb-8">Agency Services</h2>
-       <div className="container mx-auto py-12 my-20">
+       <div className="container mx-auto text-black py-12 my-20">
      
 
       <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">

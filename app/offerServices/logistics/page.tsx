@@ -2,10 +2,10 @@ import React from 'react'
 
 const page = () => {
   return (
-    <div className='bg-work'><div className="container mx-auto py-10">
+    <div className='bg-work'><div className="container text-black mx-auto py-10">
     <h1 className="text-4xl font-bold my-24 text-center bg-black text-white p-14 mb-8">Logistics Services</h1>
 
-    <p className="text-lg mb-6">
+    <p className="text-lg text-black mb-6">
       ZM CORP provides comprehensive logistics services to ensure the smooth and efficient flow of materials, equipment, and resources for your defense projects. Our logistics expertise plays a crucial role in optimizing supply chains and meeting project deadlines.
     </p>
 

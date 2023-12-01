@@ -2,12 +2,12 @@ import React from 'react'
 
 const Page = () => {
   return (
-    <div className='bg-work' >
+    <div className='bg-work ' >
         
       <h1 className="text-4xl font-bold my-24 text-center bg-black text-white p-14 mb-8">Air Defence Systems Expertise</h1>
 
-         <div className="container mx-auto py-10">
-      <p className="text-lg mb-6">
+         <div className="container mx-auto py-10 text-black ">
+      <p className="text-lg mb-6 p-2">
         ZM CORP stands at the forefront of air defence systems expertise, providing state-of-the-art solutions to safeguard airspace and protect against aerial threats. Our commitment to innovation, reliability, and strategic partnerships ensures that our clients have access to cutting-edge air defence technologies.
       </p>
 

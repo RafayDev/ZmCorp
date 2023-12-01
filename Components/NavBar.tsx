@@ -33,6 +33,7 @@ const NavBar = () => {
                     spy={true}
                     smooth={true}
                     offset={-70}
+                    className="text-gray-800"
                   >
                     Home
                   </ScrollLink>
@@ -62,6 +63,7 @@ const NavBar = () => {
                     spy={true}
                     smooth={true}
                     offset={-70}
+                    className="text-gray-800"
                   >
                     Expertise
                   </ScrollLink>
@@ -84,7 +86,7 @@ const NavBar = () => {
                     smooth={true}
                     duration={500}
                     offset={-100}
-                    className=" hover:text-li-color    cursor-pointer"
+                    className=" hover:text-li-color text-gray-800  cursor-pointer"
                     aria-current="page"
                   >
                     SERVICES WE OFFER
@@ -108,7 +110,7 @@ const NavBar = () => {
                     smooth={true}
                     duration={500}
                     offset={-100}
-                    className=" hover:text-li-color    cursor-pointer"
+                    className=" hover:text-li-color  text-gray-800  cursor-pointer"
                   >
                     WORK WITH US
                   </ScrollLink>
@@ -131,7 +133,7 @@ const NavBar = () => {
                       smooth={true}
                       duration={500}
                       offset={-100}
-                      className=" hover:text-li-color    cursor-pointer"
+                      className=" hover:text-li-color  text-gray-800  cursor-pointer"
                     >
                       CONTACT US
                     </ScrollLink>

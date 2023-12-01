@@ -5,7 +5,7 @@ const Page = () => {
     <div className='bg-work'>
       
     <h1 className="text-4xl font-bold my-24 text-center bg-black text-white p-14 mb-8">Contract Negotiations</h1>
-      <div className="container mx-auto py-10">
+      <div className="container text-black mx-auto py-10">
 
     <p className="text-lg mb-6">
       ZM CORP is your trusted partner in navigating the complexities of contract negotiations within the defense industry. Our dedicated team of experts specializes in facilitating mutually beneficial agreements and ensuring the success of your projects.

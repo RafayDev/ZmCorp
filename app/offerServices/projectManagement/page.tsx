@@ -5,7 +5,7 @@ const page = () => {
     <div className='bg-work'>
       
     <h1 className="text-4xl font-bold my-24 text-center bg-black text-white p-14 mb-8">Project Management</h1>
-      <div className="container mx-auto py-10"></div>
+      <div className="container text-black mx-auto py-10"></div>
     <div className="container mx-auto ">
    
 

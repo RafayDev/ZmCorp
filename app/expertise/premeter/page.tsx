@@ -5,7 +5,7 @@ const page = () => {
     <div className='flex flex-col min-h-screen' >
     <h2 className=" text-2xl font-bold my-24 text-center  bg-black text-white p-14 mb-8">PREMETER SECURITY EQUIPMENT</h2>
     <div className='  ' >
-      <h4 className='text-center'>
+      <h4 className=' text-black text-center'>
         Coming SOON...
       </h4>
 

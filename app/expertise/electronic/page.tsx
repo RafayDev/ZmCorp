@@ -4,7 +4,7 @@ const Page = () => {
   return (
     <div className='bg-work'>
          <h1 className="text-4xl font-bold my-24 text-center bg-black text-white p-14 mb-8">Electronic Warfare Expertise</h1>
-        <div className="container mx-auto py-10">
+        <div className="container text-black mx-auto py-10">
      
 
       <p className="text-lg mb-6">
