@@ -12,7 +12,7 @@ const Wrok = () => {
   };
   return (
     <div id="Wrok">
-      <div className="w-full bg-work mt-24 ">
+      <div className="w-full bg-work mt-24 text-black">
         <div>
           <h3 className="text-center font  font-bold text-4xl py-16 ">
             WORK WITH US

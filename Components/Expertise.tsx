@@ -20,7 +20,7 @@ const Expertise = () => {
         {  content: 'TRAINING & SIMULATION SYSTEMS' , link: "/expertise/training" },
       ];
   return (
-    <div id="Expertise" className='bg-expertise w-full h-full' >
+    <div id="Expertise" className='bg-expertise w-full h-full text-black' >
         
             <h1 className='text-center font font-semibold text-3xl py-16 ' >AREA OF EXPERTISE</h1>
             <div className="container mx-auto ">
